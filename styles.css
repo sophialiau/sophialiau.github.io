@@ -71,28 +71,6 @@ body {
     color: #F9B9C3; /* On hover, match headings for a cohesive feel */
   }
 
-  section {
-    margin-bottom: 40px; /* Space between sections */
-    padding: 20px;
-    background-color: #D6EEFF; /* Creamy background for sections */
-    border-radius: 8px; /* Soft rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
-  
-  section h2 {
-    color: #160C28; /* Dark purple heading */
-    margin-bottom: 10px;
-  }
-  
-  section p {
-    color: #293241; /* Gunmetal body text */
-    line-height: 1.6; /* Improve readability */
-  }
-
-  .italicized {
-    font-style: italic;
-  }
-
   * {
     margin: 0;
     padding: 0;
