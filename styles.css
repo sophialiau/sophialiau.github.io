@@ -104,36 +104,31 @@ body {
     text-align: center;
   }
   
-  .intro-overlay h1 {
-    font-family: 'Monsieur La Doulaise', cursive;
-    color: #F9B9C3; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
-    font-size: 4em;
-    margin: 0 0 10px 0; /* Spacing between heading and paragraph */
+
+.text-box {
     position: relative;
-    z-index: 2;
+    display: inline-block; /* Shrink to fit content width */
+    text-align: center; /* Center align the text */
+    background-color: #160C28; /* Dark purple rectangle */
+    padding: 20px 40px; /* Adds space around the text inside the box */
+    border-radius: 10px; /* Rounded corners */
+    z-index: 1; /* Ensure it's above the background image */
   }
   
-  .intro-overlay p {
-    font-size: 1.2em;
-    color: #F9B9C3;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 2;
-  }  
-
-  .intro-overlay h1::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 110%;
-    height: 1.2em;
-    background-color: #160C28;
-    z-index: -1;
-    border-radius: 8px;
+  /* Heading and subtitle styles */
+  .text-box h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: #F9B9C3; /* Pink text */
+    font-size: 4em;
+    margin: 0;
   }
-
+  
+  .text-box p {
+    font-size: 1.2em;
+    color: #F9B9C3; /* Pink text */
+    margin: 10px 0 0; /* Add spacing between heading and paragraph */
+  }
+  
   
   .menu-link {
     position: absolute;
