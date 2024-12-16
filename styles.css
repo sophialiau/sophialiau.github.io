@@ -17,9 +17,10 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 50 px;
+    gap: 50px;
     padding: 0;
     margin: 0;
+    margin-top: 20px;
   }
 
   nav a {
@@ -101,22 +102,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.5); /* Slightly lighter overlay */
+    color: #160C28; /* Dark text for contrast */
   }
+  
+  .intro-overlay h1 {
+    font-size: 3.5em;
+    margin: 0 0 10px 0; /* Spacing between heading and paragraph */
+  }
+  
+  .intro-overlay p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }  
 
-  .logo h1 {
-    font-size: 3em;
-    font-weight: 700;
-    color: #931621;
-    letter-spacing: 2px;
-  }
-
-  .logo p {
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #160C28;
-    margin-top: 10px;
-  }
   
   .menu-link {
     position: absolute;
@@ -128,65 +127,58 @@ body {
   }
 
   .get-to-know {
-    background: #FAF9F6;
+    background-color: #D6EEFF; /* Light blue background */
     text-align: center;
-    padding: 20px 10px;
+    padding: 40px 20px;
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-
-    .get-to-know-content span,
-    .get-to-know-content p {
-        display: inline-block;
-        margin: 0 10px;
-        font-weight: 400;
-    }
-
-    .about-me-click {
-        color: #931621;
-        text-decoration: none;
-        font-weight: 700;
-    }
-
-    .info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 50px auto;
-        max-width: 1200px;
-    }
-
-    .info-image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .info-text {
-        flex: 1;
-        padding: 20px;
-        background: #F9B9C3; /* Pinkish background */
-        color: #160C28;
-    }
-
-    .info-text h2 {
-        font-size: 2.5em;
-        color: #931621; /* Carmine heading */
-        margin-bottom: 10px;
-    }
-
-    .info-text p {
-        font-size: 1.2em;
-        margin-bottom: 20px;
-    }
-
-    .explore-button {
-        color: #931621;
-        text-decoration: none;
-        font-weight: 700;
-    }
-}
-
-
+  }
   
-
+  .get-to-know p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
   
+  .about-me-click {
+    color: #931621;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .info-image {
+    flex: 1;
+  }
+  
+  .info-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #F9B9C3;
+    color: #160C28;
+    text-align: center;
+    border-radius: 10px; /* Adds soft corners */
+  }
+  
+  .info-text h2 {
+    color: #931621;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #931621;
+    text-decoration: none;
+    font-weight: bold;
+  }
   
