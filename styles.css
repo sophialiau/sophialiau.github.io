@@ -115,7 +115,7 @@ body {
     position: relative;
     display: inline-block; /* Shrink to fit content width */
     text-align: center; /* Center align the text */
-    background-color: #FAF9F6; /* Dark purple rectangle */
+    background-color: #293241; 
     padding: 40px 80px; /* Adds space around the text inside the box */
     z-index: 1; /* Ensure it's above the background image */
   }
@@ -123,14 +123,14 @@ body {
   /* Heading and subtitle styles */
   .text-box h1 {
     font-family: 'Monsieur La Doulaise', cursive;
-    color: #293241; /* Pink text */
+    color: #FAF9F6; /* Pink text */
     font-size: 4em;
     margin: 0;
   }
   
   .text-box p {
     font-size: 1.2em;
-    color: #293241; /* Pink text */
+    color: #FAF9F6; /* Pink text */
     margin: 10px 0 0; /* Add spacing between heading and paragraph */
   }
   
