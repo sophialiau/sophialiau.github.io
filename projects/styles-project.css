@@ -86,11 +86,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
    section h2 {
-    color: #FAF9F6; /* Dark purple heading */
+    color: #FAF9F6; 
     margin-bottom: 10px;
   }
    section p {
-    color: #FAF9F6; /* Gunmetal body text */
+    color: #FAF9F6; 
     line-height: 1.6; /* Improve readability */
   }
  
