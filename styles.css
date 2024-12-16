@@ -9,7 +9,7 @@ body {
   
   header, footer {
     background-color: #160C28; /* Dark purple header/footer */
-    padding: 50px;
+    padding: 100px;
     text-align: center;
   }
   
@@ -17,7 +17,7 @@ body {
     font-family: 'Monsieur La Doulaise', cursive;
     color: #F9B9C3; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
     margin: 0;
-    font-size: 2.5em;
+    font-size: 4 em;
     text-align: center;
   }
   
@@ -32,6 +32,7 @@ body {
     line-height: 1.2;
     margin-bottom: 20px;
     font-weight: 700;
+    text-align: center;
   }
   
   a {
