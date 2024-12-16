@@ -1,0 +1,45 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FAF9F6; /* Creamy neutral */
+    color: #160C28; 
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+  
+  header, footer {
+    background-color: #160C28; /* Dark purple header/footer */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1, footer h1 {
+    color: #F9B9C3; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px; /* More padding for a luxurious feel */
+  }
+  
+  h1, h2, h3 {
+    color: #160C28; 
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  a {
+    color: #931621; /* Carmine for a subtle accent, or use black/dark purple for a more subdued look */
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #F9B9C3; /* On hover, match headings for a cohesive feel */
+    text-decoration: underline; /* Subtle emphasis on hover */
+  }
+  
+  
