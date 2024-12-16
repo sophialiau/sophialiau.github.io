@@ -1,14 +1,20 @@
 body {
     font-family: 'Playfair Display', serif;
     background-color: #FAF9F6; /* Creamy neutral */
-    color: #160C28; 
+    color: #293241; 
     margin: 0;
     padding: 0;
     font-weight: 400;
   }
   
-  header, footer {
-    background-color: #160C28; /* Dark purple header/footer */
+  header {
+    background-color: #FAF9F6; 
+    padding: 50px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #293241; 
     padding: 50px;
     text-align: center;
   }
@@ -24,7 +30,7 @@ body {
   }
 
   nav a {
-    color:#FAF9F6;
+    color:#293241;
     text-decoration: none;
     font-weight: 700;
   }
@@ -35,7 +41,7 @@ body {
   
   header h1, footer h1 {
     font-family: 'Monsieur La Doulaise', cursive;
-    color: #FAF9F6; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
+    color: #293241; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
     margin: 0;
     font-size: 4 em;
     text-align: center;
@@ -43,7 +49,7 @@ body {
 
   footer p {
     font-family: 'Playfair Display', serif;
-    color: #FAF9F6;
+    color: #293241;
     font-size: 1 em;
     text-align: center;
 
@@ -56,7 +62,7 @@ body {
   }
   
   h1, h2, h3 {
-    color: #160C28; 
+    color: #293241; 
     line-height: 1.2;
     margin-bottom: 20px;
     font-weight: 700;
@@ -64,7 +70,7 @@ body {
   }
   
   a {
-    color: #293241; /* Carmine for a subtle accent, or use black/dark purple for a more subdued look */
+    color: #293241; 
     text-decoration: none;
   }
 
@@ -109,7 +115,7 @@ body {
     position: relative;
     display: inline-block; /* Shrink to fit content width */
     text-align: center; /* Center align the text */
-    background-color: #160C28; /* Dark purple rectangle */
+    background-color: #FAF9F6; /* Dark purple rectangle */
     padding: 40px 80px; /* Adds space around the text inside the box */
     z-index: 1; /* Ensure it's above the background image */
   }
@@ -117,20 +123,20 @@ body {
   /* Heading and subtitle styles */
   .text-box h1 {
     font-family: 'Monsieur La Doulaise', cursive;
-    color: #FAF9F6; /* Pink text */
+    color: #293241; /* Pink text */
     font-size: 4em;
     margin: 0;
   }
   
   .text-box p {
     font-size: 1.2em;
-    color: #FAF9F6; /* Pink text */
+    color: #293241; /* Pink text */
     margin: 10px 0 0; /* Add spacing between heading and paragraph */
   }
   
 
   .get-to-know {
-    background-color: #F9B9C3; /* Light blue background */
+    background-color: #F9B9C3; 
     text-align: center;
     padding: 40px 20px;
     border-top: 1px solid #ddd;
@@ -142,7 +148,7 @@ body {
   }
   
   .about-me-click {
-    color: #931621;
+    color: #293241;
     font-weight: 700;
     text-decoration: none;
   }
@@ -161,14 +167,14 @@ body {
   .info-text {
     flex: 1;
     padding: 20px;
-    background-color: #F9B9C3;
-    color: #160C28;
+    background-color: #293241;
+    color: #FAF9F6;
     text-align: center;
     border-radius: 10px; /* Adds soft corners */
   }
   
   .info-text h2 {
-    color: #160C28;
+    color: #FAF9F6;
     font-size: 2.5em;
     margin-bottom: 15px;
   }
@@ -176,7 +182,7 @@ body {
   .explore-button {
     display: inline-block;
     margin-top: 10px;
-    color: #931621;
+    color: #FAF9F6;
     text-decoration: none;
     font-weight: bold;
   }
