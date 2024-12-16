@@ -9,7 +9,7 @@ body {
   
   header, footer {
     background-color: #160C28; /* Dark purple header/footer */
-    padding: 100px;
+    padding: 50px;
     text-align: center;
   }
   
@@ -42,6 +42,25 @@ body {
 
   a:hover {
     color: #F9B9C3; /* On hover, match headings for a cohesive feel */
+    text-decoration: italic;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20 px;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a {
+    color:#F9B9C3;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  nav a:hover {
+    text-decoration: italic;
   }
   
   
