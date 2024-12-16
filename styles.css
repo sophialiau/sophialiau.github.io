@@ -110,7 +110,7 @@ body {
     display: inline-block; /* Shrink to fit content width */
     text-align: center; /* Center align the text */
     background-color: #160C28; /* Dark purple rectangle */
-    padding: 40px 40px; /* Adds space around the text inside the box */
+    padding: 40px 80px; /* Adds space around the text inside the box */
     z-index: 1; /* Ensure it's above the background image */
   }
   
