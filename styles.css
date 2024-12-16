@@ -102,12 +102,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgba(255, 255, 255, 0.5); /* Slightly lighter overlay */
     color: #160C28; /* Dark text for contrast */
   }
   
   .intro-overlay h1 {
-    font-size: 3.5em;
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: #F9B9C3; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
+    font-size: 4em;
     margin: 0 0 10px 0; /* Spacing between heading and paragraph */
   }
   
@@ -153,10 +154,6 @@ body {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-  }
-  
-  .info-image {
-    flex: 1;
   }
   
   .info-text {
