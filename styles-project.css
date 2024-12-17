@@ -92,6 +92,7 @@ body {
    section p {
     color: #FAF9F6; 
     line-height: 1.6; /* Improve readability */
+    text-align: center;
   }
  
   nav ul {
