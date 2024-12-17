@@ -94,5 +94,24 @@ body {
     line-height: 1.6; /* Improve readability */
   }
  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  nav a {
+    color:#FAF9F6;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  nav a:hover {
+    color: #F9B9C3;
+  }
 
  
