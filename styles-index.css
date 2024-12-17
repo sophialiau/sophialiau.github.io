@@ -164,8 +164,7 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin-top: 40px auto;
-    margin-bottom: 10px auto;
+    margin: 20px auto;
     padding: 40px 20px;
   }
   
@@ -191,8 +190,7 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin-top: 10px auto;
-    margin-bottom: 40px auto;
+    margin: 20px auto;
     padding: 40px 20px;
   }
   
