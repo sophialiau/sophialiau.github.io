@@ -164,8 +164,9 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+    margin-top: 40px auto;
+    margin-bottom: 10px auto;
+    padding: 40px 20px;
   }
   
   .info-text {
@@ -190,8 +191,9 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+    margin-top: 10px auto;
+    margin-bottom: 40px auto;
+    padding: 40px 20px;
   }
   
   .personal-text {
