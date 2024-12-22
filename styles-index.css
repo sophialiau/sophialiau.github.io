@@ -78,6 +78,16 @@ body {
     color: #F9B9C3; /* On hover, match headings for a cohesive feel */
   }
 
+
+  b {
+    color: #FAF9F6; 
+    text-decoration: none;
+  }
+
+  b:hover {
+    color: #F9B9C3; /* On hover, match headings for a cohesive feel */
+  }
+
   * {
     margin: 0;
     padding: 0;
