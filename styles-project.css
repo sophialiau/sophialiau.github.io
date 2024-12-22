@@ -78,6 +78,17 @@ body {
     color: #F9B9C3; /* On hover, match headings for a cohesive feel */
   }
 
+  b {
+    color: #FAF9F6; 
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  b:hover {
+    color: #F9B9C3; /* On hover, match headings for a cohesive feel */
+  }
+
   section {
     margin-bottom: 40px; /* Space between sections */
     padding: 20px;
