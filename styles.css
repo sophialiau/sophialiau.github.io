@@ -81,8 +81,8 @@ body {
   b {
     color: #FAF9F6; 
     text-decoration: none;
-    text-align: center;
     font-weight: 700;
+    text-align: center;
   }
 
   b:hover {
