@@ -230,4 +230,62 @@ body {
   content: url('resources/github-pink.png'); 
 }
 
+/* Style the container for the project sections */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust columns dynamically */
+  gap: 20px; /* Add spacing between sections */
+  max-width: 1200px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+}
+
+/* Style individual sections */
+section {
+  background-color: #293241; /* Dark background for sections */
+  color: #FAF9F6; /* Light text */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+}
+
+/* Section headings */
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #F9B9C3; /* Accent color for headings */
+}
+
+/* Paragraph styling */
+section p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Navigation links in sections */
+section nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+section nav ul li a {
+  color: #FAF9F6; /* Light text for links */
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #F9B9C3; /* Button background */
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+section nav ul li a:hover {
+  background-color: #FF8E9E; /* Darker pink on hover */
+}
+
  
