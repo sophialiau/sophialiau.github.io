@@ -222,3 +222,47 @@ body {
     color: #F9B9C3; /* On hover, match headings for a cohesive feel */
   }
   
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #FAF9F6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-links img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  .linkedin {
+    background-color: #293241;
+  }
+  
+  .email {
+    background-color: #293241;
+  }
+  
+  .instagram {
+    background-color: #293241;
+  }
+  
+  .github {
+    background-color: #293241;
+  }
+  
+  
+   
