@@ -173,25 +173,61 @@ body {
   transition: transform 0.2s ease;
 }
 
-.contact-links img:hover {
-  transform: scale(1.1);
-}
 
 .linkedin {
   background-color: #293241;
+}
+
+.contact-links a .linkedin {
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover .linkedin {
+  content: url('resources/linkedin-pink.png'); 
 }
 
 .email {
   background-color: #293241;
 }
 
+.contact-links a .email {
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover .email {
+  content: url('resources/mail-pink.png'); 
+}
+
 .instagram {
   background-color: #293241;
+}
+
+.contact-links a .instagram {
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover .instagram {
+  content: url('resources/instagram-pink.png'); 
 }
 
 .github {
   background-color: #293241;
 }
 
+.contact-links a .github {
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.contact-links a:hover .github {
+  content: url('resources/github-pink.png'); 
+}
 
  
