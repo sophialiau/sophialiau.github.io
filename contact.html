@@ -78,20 +78,4 @@
 </body>
 </html>
 
-<script>
-  document.querySelectorAll('.contact-links img').forEach(img => {
-    // Create hover and default source based on file naming convention
-    const hoverSrc = img.src.replace('-navy.png', '-pink.png');
-    const defaultSrc = img.src;
-
-    // Add event listener for hover (mouseenter)
-    img.addEventListener('mouseenter', () => {
-        img.src = hoverSrc;
-    });
-
-    // Add event listener for mouse leave
-    img.addEventListener('mouseleave', () => {
-        img.src = defaultSrc;
-    });
-});
-</script>
+<script src="script.js"></script>
