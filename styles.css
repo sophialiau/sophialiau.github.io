@@ -169,8 +169,8 @@ body {
 }
 
 .contact-links img {
-  width: 40px; /* Adjust size as needed */
-  height: 40px;
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
   transition: transform 0.2s ease;
 }
 
