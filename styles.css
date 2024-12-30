@@ -132,7 +132,7 @@ body {
 .contact-container {
   text-align: center;
   padding: 20px;
-  background: white;
+  background: #293241;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   max-width: 600px;
@@ -141,7 +141,7 @@ body {
 
 .contact-container h1 {
   font-family: 'Monsieur La Doulaise', cursive;
-  color: #293241;
+  color: #FAF9F6;
   font-size: 3em;
   margin-bottom: 10px;
 }
@@ -174,19 +174,19 @@ body {
 }
 
 .linkedin {
-  background-color: #0077b5;
+  background-color: #F9B9C3;
 }
 
 .email {
-  background-color: #d93025;
+  background-color: #F9B9C3;
 }
 
 .instagram {
-  background-color: #e1306c;
+  background-color: #F9B9C3;
 }
 
 .github {
-  background-color: #333;
+  background-color: #F9B9C3;
 }
 
 
