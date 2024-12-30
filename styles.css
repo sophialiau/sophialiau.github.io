@@ -148,7 +148,7 @@ body {
 
 .contact-container p {
   font-size: 1.2em;
-  color: #293241;
+  color: #FAF9F6;
   margin-bottom: 20px;
 }
 
@@ -168,9 +168,14 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.contact-links a:hover {
+.contact-links img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.contact-links img:hover {
   transform: scale(1.1);
-  color: #293241;
 }
 
 .linkedin {
