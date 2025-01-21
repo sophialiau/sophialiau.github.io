@@ -321,6 +321,11 @@ section nav ul li a:hover {
 }
 
 #resume_resumeintro h1 {
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #FAF9F6; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
+  margin: 0;
+  font-size: 4 em;
+  text-align: center;
 
 }
 
