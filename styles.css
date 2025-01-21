@@ -289,20 +289,25 @@ section nav ul li a:hover {
 }
 
 /* resume section styling */
-#resume_technicalskills > div {
-  display: flex;       /* Use flex layout */
-  flex-wrap: wrap;     /* Wrap to next line if space is insufficient */
-  gap: 10px;           /* Space between items */
-  justify-content: center; /* Center them horizontally (optional) */
+#resume_technicalskills {
+  text-align: center; 
 }
 
-#resume_technicalskills a {
-  display: inline-block;  /* So each link can size itself and not stretch 100% */
-  color: #F9B9C3;         /* Adjust text color if needed */
-  padding: 5px 10px;      /* Optional padding for button-like styling */
-  background-color: transparent; /* Remove or change background if desired */
-  text-decoration: none;  
-  border-radius: 4px;  
+.skills-row {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  flex-wrap: wrap;         /* Wrap onto new line if needed */
+  gap: 10px;               /* Spacing between skills */
+  margin-bottom: 20px;
+}
+
+.skills-row a {
+  display: block;          /* So each link is a block inside the flex row */
+  padding: 5px 10px;       /* Optional: "button-like" spacing */
+  background-color: transparent; 
+  text-decoration: none;
+  color: #F9B9C3;
+  border-radius: 4px; 
   transition: color 0.3s ease;
 }
 
@@ -310,6 +315,8 @@ section nav ul li a:hover {
   color: #FAF9F6;      /* Hover effect */
 }
 
-
+#resume_technicalskills h2 {
+  margin-bottom: 10px; /* Some space under the heading */
+}
 
  
