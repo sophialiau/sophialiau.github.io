@@ -306,14 +306,12 @@ section nav ul li a:hover {
   padding: 5px 10px;       /* Optional: "button-like" spacing */
   background-color: transparent; 
   text-decoration: none;
-  color: #FAF9F6;
-  background-color: #F9B9C3; /* Button background */
-  border-radius: 4px; 
-  transition: color 0.3s ease;
+  color: #F9B9C3;
+
 }
 
 #resume_technicalskills a:hover {
-  background-color: #FF8E9E;      /* Hover effect */
+  background-color: #FAF9F6;      /* Hover effect */
 }
 
 #resume_technicalskills h2 {
@@ -322,7 +320,7 @@ section nav ul li a:hover {
 
 #resume_resumeintro h1 {
   font-family: 'Monsieur La Doulaise', cursive;
-  color: #FAF9F6; /* Pink for an accent, can also use pure white (#FFF) for a cleaner look */
+  color: #FAF9F6; 
   margin: 0;
   font-size: 4 em;
   text-align: center;
