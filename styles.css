@@ -327,4 +327,22 @@ section nav ul li a:hover {
 }
 
 
+.photostrip {
+  display: flex;
+  gap: 10px; /* Adjust gap between images */
+  overflow-x: auto;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.photostrip img {
+  width: 150px; /* Set the size of each square */
+  height: 150px; /* Keep it square */
+  object-fit: cover;
+  border-radius: 4px; /* Optional rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
  
