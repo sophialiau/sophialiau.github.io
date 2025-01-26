@@ -326,7 +326,7 @@ section nav ul li a:hover {
   margin-bottom: 10px; /* Some space under the heading */
 }
 
-
+/* photostrip */
 .photostrip {
   display: flex;
   justify-content: space-evenly;

@@ -246,3 +246,25 @@ body {
   .contact-links a:hover .github {
     content: url('resources/github-pink.png'); 
   }
+
+  /* photostrip */
+.photostrip {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px; /* Adjust gap between images */
+    overflow-x: auto;
+    padding: 10px;
+    background: #293241;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .photostrip img {
+    width: 150px; /* Set the size of each square */
+    height: 150px; /* Keep it square */
+    object-fit: cover;
+    border-radius: 4px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
