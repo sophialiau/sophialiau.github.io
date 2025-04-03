@@ -12,3 +12,9 @@ document.querySelectorAll('.contact-links img').forEach(img => {
         img.setAttribute('src', defaultSrc); // Revert to default image
     });
 });
+
+async function callBackend() {
+    const res = await fetch('http://localhost:3000/api/message');
+    const data = await res.json();
+    alert(data.msg);
+  }
