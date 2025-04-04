@@ -1,10 +1,16 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
+const path = require('path');
 
-// Serve static frontend from 'public'
-app.use(express.static('public'));
+// This guarantees it points to the right folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Optional: Handle 404 with cute fallback
+app.use((req, res) => {
+  res.status(404).send("404, but still slay 💅");
+});
 
 app.listen(PORT, () => {
-  console.log(`Site is live at http://localhost:${PORT}`);
+  console.log(`✨ Website running at http://localhost:${PORT}`);
 });
