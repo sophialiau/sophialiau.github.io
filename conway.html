@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conway's Game of Life | Sophia Liau</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+
+  <!-- tab icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon-16x16.png">
+  <link rel="manifest" href="resources/site.webmanifest">
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-image: url('resources/wallpapers/thinpink.png');
+      background-repeat: repeat;
+      background-size: auto;
+      background-attachment: fixed;
+      color: #293241;
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+    }
+    
+    header {
+      background-color: #293241;
+      padding: 50px;
+      text-align: center;
+    }
+    
+    header h1 {
+      font-family: 'Monsieur La Doulaise', cursive;
+      color: #FAF9F6;
+      margin: 0;
+      font-size: 4em;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+    }
+    
+    nav a {
+      color: #FAF9F6;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    
+    nav a:hover {
+      color: #F9B9C3;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #293241;
+      border-radius: 10px;
+      color: #FAF9F6;
+      text-align: center;
+    }
+    
+    .game-container {
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #gameCanvas {
+      background-color: #FAF9F6;
+      border: 2px solid #F9B9C3;
+      border-radius: 5px;
+    }
+    
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    
+    button {
+      background-color: #F9B9C3;
+      color: #293241;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+    }
+    
+    button:hover {
+      background-color: #FAF9F6;
+    }
+    
+    footer {
+      background-color: #293241;
+      padding: 30px;
+      text-align: center;
+      color: #FAF9F6;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <h1>Sophia S    Liau</h1>
+    </a>
+    
+    <nav>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="personal.html">Personal</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>Conway's Game of Life</h2>
+    <p>Click on the grid to toggle cells or use the patterns below</p>
+    
+    <div class="game-container">
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+      
+      <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="clearBtn">Clear</button>
+        <button id="randomBtn">Random</button>
+        <button id="gliderBtn">Glider</button>
+        <button id="gosperBtn">Gosper Glider Gun</button>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>© 2024 Sophia Liau. All rights reserved.</p>
+  </footer>
+  
+  <script src="conway.js"></script>
+</body>
+</html>

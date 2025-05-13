@@ -17,9 +17,10 @@ body {
   }
 
   footer {
-    background-color: #293241; 
+    background-color: #293241;
     padding: 50px;
     text-align: center;
+    margin-top: 0;
   }
 
   nav ul {
@@ -168,19 +169,19 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding: 20px 40px;
   }
-  
+
   .info-text {
     flex: 1;
     padding: 20px;
     background-color: #293241;
     color: #FAF9F6;
     text-align: center;
-    border-radius: 10px; /* Adds soft corners */
+    border-radius: 10px 10px 0 0; /* Rounded corners only at top */
   }
-  
+
   .info-text h2 {
     color: #FAF9F6;
     font-size: 2.5em;
@@ -194,8 +195,8 @@ body {
     justify-content: center;
     gap: 20px;
     max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px 40px;
+    margin: 0 auto 0;
+    padding: 0 40px 20px;
   }
   
   .personal-text {
@@ -204,7 +205,8 @@ body {
     background-color: #293241;
     color: #FAF9F6;
     text-align: center;
-    border-radius: 10px; /* Adds soft corners */
+    border-radius: 0 0 10px 10px; /* Rounded corners only at bottom */
+    margin-top: -1px; /* Remove any tiny gap between the sections */
   }
   
   .personal-text h2 {
