@@ -6,8 +6,8 @@ const PORT = process.env.PORT || 3000;
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Routes for interactive projects can be added here
-// Example: app.use('/api/projects', require('./routes/projects'));
+// Routes for interactive projects
+app.use('/api/projects', require('./routes/projects'));
 
 // Fallback route - serves index.html for any unmatched routes
 app.get('*', (req, res) => {
