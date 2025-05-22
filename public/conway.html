@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conway's Game of Life | Sophia Liau</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+
+  <!-- tab icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+
+  <!-- style -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <h1>Sophia S    Liau</h1>
+    </a>
+    
+    <nav>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="personal.html">Personal</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>Conway's Game of Life</h2>
+    <p>Click on the grid to toggle cells or use the patterns below</p>
+    
+    <div class="game-container">
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+      
+      <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="clearBtn">Clear</button>
+        <button id="randomBtn">Random</button>
+        <button id="gliderBtn">Glider</button>
+        <button id="gosperBtn">Gosper Glider Gun</button>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>© 2024 Sophia Liau. All rights reserved.</p>
+  </footer>
+  
+  <script src="scripts/conway.js"></script>
+</body>
+</html>
