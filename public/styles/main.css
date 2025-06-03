@@ -278,14 +278,13 @@ section nav ul li a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   max-width: 1440px;
   margin: 20px auto 0;
   padding: 20px 40px;
 }
 
 .info-text {
-  max-width: 1000px;
+  width: 1000px;
   margin: 40px auto;
   padding: 40px 30px;
   background-color: #293241;
