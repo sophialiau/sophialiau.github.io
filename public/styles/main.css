@@ -244,14 +244,15 @@ section nav ul li a:hover {
   background-color: #FEF1F3; 
   text-align: center;
   padding: 40px 20px;
-  border-top: 5px solid #ddd;
-  border-bottom: 5px solid #ddd;
+  border-top: 5px solid #FFFFFF;
+  border-bottom: 5px solid #FFFFFF;
   margin-bottom: 40px;
 }
 
 .get-to-know p {
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #293241;
 }
 
 .about-me-click {
@@ -294,6 +295,8 @@ section nav ul li a:hover {
 
 .info-text p {
   max-width: 700px;
+  text-align: center;
+
 }
 
 .banner-container {
@@ -303,7 +306,6 @@ section nav ul li a:hover {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 40px auto;
-  padding: 0 20px;
 }
 
 .banner-button {
@@ -314,24 +316,17 @@ section nav ul li a:hover {
   font-size: 4em;
   padding: 30px 60px;
   width: 487.5px;
+  height: 200px;
   text-align: center;
+  line-height: 200px;
   border: none;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 0;
 }
 
 .banner-button:hover {
-  size-adjust: 1.05; /* Slightly enlarge on hover */
-}
-
-@media (max-width: 600px) {
-  .banner-button {
-    width: 100%;
-    font-size: 1.5em;
-    padding: 20px 0;
-  }
+  size-adjust: 1.1; /* Slightly enlarge on hover */
 }
 
 
