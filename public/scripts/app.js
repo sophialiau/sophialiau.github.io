@@ -1,7 +1,7 @@
 document.querySelectorAll('.contact-links img').forEach(img => {
     // Store the default and hover image paths
     const defaultSrc = img.getAttribute('src');
-    const hoverSrc = defaultSrc.replace('-navy.png', '-pink.png');
+    const hoverSrc = defaultSrc.replace('navy', 'pink');
 
     // Add event listeners for mouseenter and mouseleave
     img.addEventListener('mouseenter', () => {

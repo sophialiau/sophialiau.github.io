@@ -1,7 +1,16 @@
-/* GENERAL */
+  /******************/
+ /*    GENERAL     */
+/******************/
+* {
+  border-radius: 0 !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Playfair Display', serif;
-  background-image: url('../assets/wallpapers/thinpink.png');
+  background-image: url('../assets/wallpapers/finalwebwallpaper.png');
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
@@ -36,18 +45,18 @@ nav ul {
 }
 
 nav a {
-  color:#FAF9F6;
+  color:#FFFFFF; 
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 nav a:hover {
-  color: #F9B9C3;
+  color:  #FEF1F3;
 }
 
 header h1, footer h1 {
   font-family: 'Monsieur La Doulaise', cursive;
-  color: #FAF9F6;
+  color: #FFFFFF;
   margin: 0;
   font-size: 4em;
   text-align: center;
@@ -55,113 +64,228 @@ header h1, footer h1 {
 
 footer p {
   font-family: 'Playfair Display', serif;
-  color: #FAF9F6;
+  color: #FFFFFF;
   font-size: 1em;
   text-align: center;
 }
 
 /* general main */
+/* default (desktop) */
 main {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
   padding: 40px 20px; /* More padding for a luxurious feel */
 }
 
+/* tablet and smaller */
+@media (max-width: 768px) {
+  main {
+    padding: 30px 15px; /* Less padding on smaller screens */
+  }
+}
+
+/* mobile and smaller */
+@media (max-width: 480px) {
+  main {
+    padding: 20px 10px; /* Even less padding on very small screens */
+  }
+}
+
+/* headings */
 h1, h2, h3 {
   color: #293241; 
   line-height: 1.2;
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
 }
 
 a {
-  color: #293241; 
+  color: #FFFFFF; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #F9B9C3; /* On hover, match headings for a cohesive feel */
+  color: #FEF1F3; /* On hover, match headings for a cohesive feel */
 }
 
-/* Box sizing for all elements */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* general section */
+/* general sectioning */
 section {
   margin-bottom: 40px; /* Space between sections */
-  padding: 20px;
-  background-color: #293241; 
-  border-radius: 8px; /* Soft rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  color: #FAF9F6; /* Light text */
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0; /* Soft rounded corners */
+  color: inherit; /* Light text */
+  text-align: inherit;
+}
+
+.section-label {
+  background-color: #293241;
+  color: #FFFFFF;
   text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 2em;
+  margin: 60px 0 20px; 
+  padding: 10px;
+}
+
+section h1,
+section h2,
+section h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  line-height : 1.2; 
+}
+
+section h1 {
+  font-size: 1.8em;
+  color: #FFFFFF;
+  font-weight: 400;
 }
 
 section h2 {
-  color: #FAF9F6; 
-  margin-bottom: 10px;
   font-size: 1.5em;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+section h3 {
+  font-size: 2.5em;
+  color: #FFFFFF;
+  font-weight: 400;
 }
 
 section p {
-  color: #FAF9F6; 
-  line-height: 1.6; /* Improve readability */
+  color: #FFFFFF; 
+  line-height: 1.6; 
   text-align: center;
   font-size: 1em;
   margin-bottom: 10px;
 }
 
+/* section links */
 section a {
-  color: #F9B9C3;
-  justify-content: center;
+  color: #FEF1F3;
+  text-decoration: none;
 }
 
 section a:hover {
-  color: #FAF9F6;
+  color: #FFFFFF;
 }
 
-section h1 {
-  color: #F9B9C3;
-  margin-bottom: 10px;
-  font-size: 1.5em;
-}
-
-section h3 {
-  font-family: 'Monsieur La Doulaise', cursive;
-  color: #FAF9F6; 
-  margin: 10px;
-  font-size: 3em;
-  text-align: center;
-}
-
+/* section navigation */
 section nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 section nav ul li a {
-  color: #FAF9F6; /* Light text for links */
-  text-decoration: none;
-  font-weight: 700;
-  background-color: #F9B9C3; /* Button background */
+  background-color: #FEF1F3;
+  color: #293241;
   padding: 5px 10px;
   border-radius: 4px;
+  font-weight: 400;
   transition: background-color 0.3s ease;
   display: flex;
+  text-decoration: none;
 }
 
 section nav ul li a:hover {
-  background-color: #FF8E9E; /* Darker pink on hover */
+  background-color: #F9B9C3; 
 }
+
+  /******************/
+ /*    LANDING     */
+/******************/
+
+/* Home page styles */
+.intro {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  margin-bottom: 40px;
+  background-color:#293241;
+}
+
+.text-box {
+  position: relative;
+  display: inline-block; /* Shrink to fit content width */
+  text-align: center; /* Center align the text */
+  padding: 40px 80px; /* Adds space around the text inside the box */
+  z-index: 1;
+  border-radius: 0; 
+}
+
+/* Heading and subtitle styles */
+.text-box h1 {
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #FFFFFF; 
+  font-size: 4em;
+  font-weight: 400px;
+  margin: 0;
+}
+
+.text-box p {
+  font-size: 1.2em;
+  color: #FFFFFF; 
+  margin-top: 10px; 
+}
+
+.get-to-know {
+  background-color: #FEF1F3; 
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.get-to-know p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-me-click {
+  color: #293241;
+  text-decoration: none;
+}
+
+.about-me-click:hover {
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 20px auto 0;
+  padding: 20px 40px;
+}
+
+.info-text {
+  flex: 1;
+  padding: 40px 30px;
+  background-color: #293241;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 0; /* Rounded corners only at top */
+}
+
+.info-text h2 {
+  color: #FFFFFF;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
 
 /* Contact Me Page Styles */
 .contact-container {
@@ -176,7 +300,7 @@ section nav ul li a:hover {
 
 .contact-container h1 {
   font-family: 'Monsieur La Doulaise', cursive;
-  color: #FAF9F6;
+  color: #FFFFFF;
   font-size: 3em;
   margin-bottom: 10px;
 }
@@ -220,7 +344,7 @@ section nav ul li a:hover {
 }
 
 .contact-links a:hover .linkedin {
-  content: url('../assets/linkedin-pink.png'); 
+  content: url('../assets/pinklogo/pinklinkedin.png'); 
 }
 
 .email {
@@ -234,7 +358,7 @@ section nav ul li a:hover {
 }
 
 .contact-links a:hover .email {
-  content: url('../assets/mail-pink.png'); 
+  content: url('../assets/pinklogo/pinkmail.png'); 
 }
 
 .instagram {
@@ -248,7 +372,7 @@ section nav ul li a:hover {
 }
 
 .contact-links a:hover .instagram {
-  content: url('../assets/instagram-pink.png'); 
+  content: url('../assets/pinklogo/pinkinstagram.png'); 
 }
 
 .github {
@@ -262,7 +386,7 @@ section nav ul li a:hover {
 }
 
 .contact-links a:hover .github {
-  content: url('../assets/github-pink.png'); 
+  content: url('../assets/pinklogo/pinkgithub.png'); 
 }
 
 /* Projects Container */
@@ -270,7 +394,7 @@ section nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust columns dynamically */
   gap: 20px; /* Add spacing between sections */
-  max-width: 1200px; /* Limit the maximum width */
+  max-width: 1000px; /* Limit the maximum width */
   margin: 0 auto; /* Center the container */
   padding: 20px;
 }
@@ -298,184 +422,4 @@ section nav ul li a:hover {
 
 #resume_technicalskills h2 {
   margin-bottom: 10px; /* Some space under the heading */
-}
-
-/* photostrip */
-.photostrip {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 10px; /* Adjust gap between images */
-  overflow-x: auto;
-  padding: 10px;
-  background: #293241;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
-
-.photostrip img {
-  width: 150px; /* Set the size of each square */
-  height: 150px; /* Keep it square */
-  object-fit: cover;
-  border-radius: 4px; /* Optional rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Personal page styles */
-.personal-header {
-  margin-top: 20px; 
-  padding: 20px 0;
-  border-top: 2px solid #F9B9C3;
-  border-bottom: 2px solid #F9B9C3;
-  background-color: #F9B9C3;
-  text-align: center;
-}
-
-.personal-header a:hover {
-  color: #293241;
-}
-
-.personal-header h2 {
-  font-family: 'Playfair Display', serif;
-  color: #FAF9F6;
-  margin: 0;
-  font-size: 2em;
-  text-align: center;
-}
-
-/* Home page styles */
-.intro {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  overflow: hidden;
-}
-
-.intro img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.intro-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.text-box {
-  position: relative;
-  display: inline-block; /* Shrink to fit content width */
-  text-align: center; /* Center align the text */
-  background-color: #293241; 
-  padding: 40px 80px; /* Adds space around the text inside the box */
-  z-index: 1; /* Ensure it's above the background image */
-}
-
-/* Heading and subtitle styles */
-.text-box h1 {
-  font-family: 'Monsieur La Doulaise', cursive;
-  color: #FAF9F6; /* Pink text */
-  font-size: 4em;
-  margin: 0;
-}
-
-.text-box p {
-  font-size: 1.2em;
-  color: #FAF9F6; /* Pink text */
-  margin: 10px 0 0; /* Add spacing between heading and paragraph */
-}
-
-.get-to-know {
-  background-color: #F9B9C3; 
-  text-align: center;
-  padding: 40px 20px;
-  border-top: 1px solid #ddd;
-}
-
-.get-to-know p {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.about-me-click {
-  color: #293241;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.about-me-click:hover {
-  color: #FAF9F6;
-}
-
-.info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 20px auto 0;
-  padding: 20px 40px;
-}
-
-.info-text {
-  flex: 1;
-  padding: 20px;
-  background-color: #293241;
-  color: #FAF9F6;
-  text-align: center;
-  border-radius: 10px 10px 0 0; /* Rounded corners only at top */
-}
-
-.info-text h2 {
-  color: #FAF9F6;
-  font-size: 2.5em;
-  margin-bottom: 15px;
-}
-
-.personal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto 0;
-  padding: 0 40px 20px;
-}
-
-.personal-text {
-  flex: 1;
-  padding: 20px;
-  background-color: #293241;
-  color: #FAF9F6;
-  text-align: center;
-  border-radius: 0 0 10px 10px; /* Rounded corners only at bottom */
-  margin-top: -1px; /* Remove any tiny gap between the sections */
-}
-
-.personal-text h2 {
-  color: #FAF9F6;
-  font-size: 2.5em;
-  margin-bottom: 15px;
-}
-
-.explore-button {
-  display: inline-block;
-  margin-top: 10px;
-  color: #FAF9F6;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.explore-button:hover {
-  color: #F9B9C3; /* On hover, match headings for a cohesive feel */
 }
