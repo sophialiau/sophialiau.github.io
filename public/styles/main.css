@@ -264,6 +264,15 @@ section nav ul li a:hover {
   font-weight: bold;
 }
 
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  gap: 25px;
+  max-width: 1000px;
+}
+
 .info {
   display: flex;
   flex-direction: row;
@@ -296,7 +305,7 @@ section nav ul li a:hover {
 .info-text p {
   max-width: 700px;
   text-align: center;
-
+  margin: 0 auto;
 }
 
 .banner-container {
@@ -304,8 +313,6 @@ section nav ul li a:hover {
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
-  max-width: 1000px;
-  margin: 40px auto;
 }
 
 .banner-button {
@@ -318,16 +325,20 @@ section nav ul li a:hover {
   width: 487.5px;
   height: 200px;
   text-align: center;
-  line-height: 200px;
   border: none;
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
   border-radius: 0;
 }
 
 .banner-button:hover {
-  size-adjust: 1.1; /* Slightly enlarge on hover */
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 
 
 /* Contact Me Page Styles */
