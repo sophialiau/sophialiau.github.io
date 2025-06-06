@@ -387,15 +387,15 @@ section nav ul li a:hover {
   padding: 20px;
   background: #293241;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  max-width: 600px;
+  border-radius: 0;
+  width: 1000px;
   margin: 40px auto;
 }
 
 .contact-container h1 {
   font-family: 'Monsieur La Doulaise', cursive;
   color: #FFFFFF;
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 10px;
 }
 
@@ -427,62 +427,6 @@ section nav ul li a:hover {
   transition: transform 0.2s ease;
 }
 
-.linkedin {
-  background-color: #293241;
-}
-
-.contact-links a .linkedin {
-  width: 40px;
-  height: 40px;
-  transition: opacity 0.3s ease;
-}
-
-.contact-links a:hover .linkedin {
-  content: url('../assets/pinklogo/pinklinkedin.png'); 
-}
-
-.email {
-  background-color: #293241;
-}
-
-.contact-links a .email {
-  width: 40px;
-  height: 40px;
-  transition: opacity 0.3s ease;
-}
-
-.contact-links a:hover .email {
-  content: url('../assets/pinklogo/pinkmail.png'); 
-}
-
-.instagram {
-  background-color: #293241;
-}
-
-.contact-links a .instagram {
-  width: 40px;
-  height: 40px;
-  transition: opacity 0.3s ease;
-}
-
-.contact-links a:hover .instagram {
-  content: url('../assets/pinklogo/pinkinstagram.png'); 
-}
-
-.github {
-  background-color: #293241;
-}
-
-.contact-links a .github {
-  width: 40px;
-  height: 40px;
-  transition: opacity 0.3s ease;
-}
-
-.contact-links a:hover .github {
-  content: url('../assets/pinklogo/pinkgithub.png'); 
-}
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -490,11 +434,11 @@ section nav ul li a:hover {
   text-align: center;
   font-family: 'Playfair Display', serif;
   color: #293241;
-  background-color: #E1E8F5;
+  background-color: #FEF1F3;
 }
 
 .container h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 10px;
   color: #293241;
 }
@@ -542,7 +486,7 @@ canvas#gameCanvas {
 }
 
 .controls button:hover {
-  background-color: #decdd0;
+  background-color: #F9B9C3;
   color: #293241;
   transform: translateY(-2px);
 }
