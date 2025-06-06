@@ -354,14 +354,8 @@ section nav ul li a:hover {
 .photo-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
-}
-
-.framed-img {
-  max-width: 240px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  margin-bottom: 0;
+  max-width: 500px;
 }
 
 .about-text-box {
@@ -378,13 +372,9 @@ section nav ul li a:hover {
 
 .intro-hover {
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 28px;
+  font-size: 4em;
   margin-bottom: 20px;
   transition: all 0.3s ease;
-}
-
-.intro-hover:hover {
-  font-style: italic;
 }
 
 
