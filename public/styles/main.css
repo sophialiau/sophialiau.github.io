@@ -493,14 +493,36 @@ canvas#gameCanvas {
 
 
 /* Projects Container */
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust columns dynamically */
-  gap: 20px; /* Add spacing between sections */
-  max-width: 1000px; /* Limit the maximum width */
-  margin: 0 auto; /* Center the container */
-  padding: 20px;
+.projects-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #E1E8F5;
+  font-family: 'Playfair Display', serif;
 }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.project-card {
+  background-color: #293241;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #ffcad4;
+  color: #293241;
+}
+
 
 /* Resume section styling */
 #resume_technicalskills {
