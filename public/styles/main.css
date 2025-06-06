@@ -52,7 +52,7 @@ nav a {
 
 nav a:hover {
   color:  #FEF1F3;
-  font-weight: bold; /* On hover, make the text bold */
+  font-style: italic;
 }
 
 header h1, footer h1 {
@@ -262,7 +262,8 @@ section nav ul li a:hover {
 }
 
 .about-me-click:hover {
-  font-weight: bold;
+  color: #293241;
+  font-style: italic;
 }
 
 .info-section {
