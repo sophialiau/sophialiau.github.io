@@ -342,6 +342,61 @@ section nav ul li a:hover {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+  /******************/
+ /*    ABOUT ME    */
+/******************/
+
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.photo-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.string {
+  height: 30px;
+  border-left: 2px solid #293241;
+  margin-bottom: -10px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.about-text-box {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #293241;
+  color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  font-family: 'Playfair Display', serif;
+  line-height: 1.6;
+}
+
+.intro-hover {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 28px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.intro-hover:hover {
+  font-style: italic;
+}
 
 
 /* Contact Me Page Styles */
