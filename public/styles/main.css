@@ -59,7 +59,7 @@ header h1, footer h1 {
   font-family: 'Monsieur La Doulaise', cursive;
   color: #FFFFFF;
   margin: 0;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -351,32 +351,21 @@ section nav ul li a:hover {
   text-align: center;
 }
 
-.photo-frame {
+.photo-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
-  position: relative;
 }
 
-.string {
-  height: 30px;
-  border-left: 2px solid #293241;
-  margin-bottom: -10px;
-}
-
-.profile-pic {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 6px solid #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
+.framed-img {
+  max-width: 240px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .about-text-box {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #293241;
   color: white;
