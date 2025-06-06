@@ -493,19 +493,30 @@ canvas#gameCanvas {
 
 
 /* Projects Container */
-.projects-section {
+.project-category {
   padding: 60px 20px;
   text-align: center;
   background-color: #E1E8F5;
-  font-family: 'Playfair Display', serif;
+}
+
+.category-title {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 2.5em;
+  color: #293241;
+  background-color: #293241;
+  color: white;
+  margin: 40px auto 30px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
 }
 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  margin: 40px auto;
+  gap: 40px;
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -513,15 +524,30 @@ canvas#gameCanvas {
   color: white;
   padding: 30px 20px;
   border-radius: 10px;
-  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  background-color: #ffcad4;
+  background-color: #FEF1F3;
   color: #293241;
+  transform: translateY(-5px);
 }
+
+.project-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-subtitle {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #f4f4f4;
+}
+
 
 
 /* Resume section styling */
