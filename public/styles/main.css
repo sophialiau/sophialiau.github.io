@@ -496,7 +496,6 @@ canvas#gameCanvas {
 .project-category {
   padding: 60px 20px;
   text-align: center;
-  background-color: #E1E8F5;
 }
 
 .category-title {
@@ -508,13 +507,15 @@ canvas#gameCanvas {
   margin: 40px auto 30px;
   padding: 10px;
   display: inline-block;
-  border-radius: 8px;
+  width: 1000px;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
+  gap: 25px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -528,6 +529,9 @@ canvas#gameCanvas {
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  width: 487.5px;
+  height: 350px;
+  display: flex;
 }
 
 .project-card:hover {
