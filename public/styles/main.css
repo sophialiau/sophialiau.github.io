@@ -532,6 +532,7 @@ canvas#gameCanvas {
   width: 487.5px;
   height: 350px;
   display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
