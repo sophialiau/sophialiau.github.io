@@ -515,12 +515,11 @@ canvas#gameCanvas {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(487.5px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   max-width: 1000px;
   margin-top: 12.5px;
   margin-bottom: 12.5px;
-  margin: 0 auto;
   justify-content: center;
 }
 
@@ -533,7 +532,9 @@ canvas#gameCanvas {
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  height: 350px;
+  width: 100%;
+  max-width: 487.5px;
+  height: 250px;
 }
 
 .project-card:hover {
@@ -556,6 +557,10 @@ canvas#gameCanvas {
   font-size: 3em;
   margin-bottom: 15px;
   color: #f4f4f4;
+}
+
+.project-card .project-subtitle{
+  font-size: 3em;
 }
 
 .project-card p {
