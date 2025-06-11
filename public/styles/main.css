@@ -520,6 +520,7 @@ canvas#gameCanvas {
   max-width: 1000px;
   margin-top: 12.5px;
   margin-bottom: 12.5px;
+  justify-content: center;
 }
 
 .project-card {
@@ -546,14 +547,20 @@ canvas#gameCanvas {
 }
 
 .project-card h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 
 .project-subtitle {
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 1.1em;
+  font-size: 2em;
   margin-bottom: 15px;
+  color: #f4f4f4;
+}
+
+.project-card p {
+  font-size: 1.5em;
+  line-height: 1.6;
   color: #f4f4f4;
 }
 
