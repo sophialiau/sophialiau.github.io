@@ -518,8 +518,7 @@ canvas#gameCanvas {
   grid-template-columns: repeat(2, 487.5px);
   gap: 25px;
   max-width: 1000px;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
+  margin: 12.5px auto; /* Center the grid */
   justify-content: center;
 }
 
@@ -546,6 +545,7 @@ canvas#gameCanvas {
 }
 
 .project-card h3 {
+  margin-top: 15px;
   font-size: 2em;
   margin-bottom: 10px;
 }
