@@ -504,7 +504,8 @@ canvas#gameCanvas {
   color: #293241;
   background-color: #293241;
   color: white;
-  margin: 40px auto 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
   padding: 10px;
   display: inline-block;
   width: 1000px;
@@ -517,7 +518,8 @@ canvas#gameCanvas {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 
 .project-card {
@@ -531,14 +533,16 @@ canvas#gameCanvas {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   width: 487.5px;
   height: 350px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 per row on large screens */
-
 }
 
 .project-card:hover {
   background-color: #FEF1F3;
   color: #293241;
   transform: translateY(-5px);
+}
+
+.project-card:hover h3, .project-card:hover .project-subtitle, .project-card:hover p {
+  color: #293241; /* Change text color on hover */
 }
 
 .project-card h3 {
