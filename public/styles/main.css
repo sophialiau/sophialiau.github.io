@@ -809,7 +809,7 @@ canvas#gameCanvas {
   justify-content: center;
 }
 
-.education-card {
+.class-card {
   background-color: #293241;
   color: #FFFFFF;
   font-family: 'Playfair Display', serif;
@@ -817,13 +817,15 @@ canvas#gameCanvas {
   text-align: center;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   line-height: 1.6;
+  width : 100%;
+  max-width: 487.5px; /* Ensure cards fit in the grid */
 }
 
-.education-card h3 {
+.class-card h3 {
   font-size: 1em;
   margin-bottom: 10px;
 }
-.education-card p {
+.class-card p {
   font-size: 0.5em;
   margin-bottom: 10px;
 }
