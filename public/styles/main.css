@@ -521,7 +521,7 @@ canvas#gameCanvas {
 
 .category-title p {
   font-family: 'Playfair Display', serif;
-  font-size: 0.5em;
+  font-size: 0.25em;
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -794,4 +794,37 @@ canvas#gameCanvas {
 .experience-card li {
   margin-bottom: 8px;
   font-size: 0.95em;
+}
+
+.year-category {
+  text-align: center;
+}
+
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background-color: #293241;
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  line-height: 1.6;
+  max-width: 1000px;
+}
+
+.education-card h3 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+.education-card p {
+  font-size: 1em;
+  margin-bottom: 10px;
 }
