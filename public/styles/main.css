@@ -722,6 +722,18 @@ canvas#gameCanvas {
   font-size: 1em;
 }
 
+.education-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.education-card a:hover {
+  background-color: #FEF1F3;
+  color: #293241;
+  transition: all 0.3s ease;
+}
+
 .education-card:hover {
   background-color: #FEF1F3;
   color: #293241;
