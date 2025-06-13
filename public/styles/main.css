@@ -588,6 +588,7 @@ canvas#gameCanvas {
   font-family: 'Monsieur La Doulaise', cursive;
   color: #FFFFFF;
   font-size: 4em;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .resume-header p {
@@ -644,16 +645,7 @@ canvas#gameCanvas {
   margin-bottom: 10px;
 }
 
-.resume-subtitle {
-  font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 3em;
-  margin-bottom: 15px;
-  color: #FFFFFF;
-}
 
-.resume-card .project-subtitle{
-  font-size: 2em;
-}
 
 .resume-card p {
   font-size: 1em;
@@ -662,13 +654,20 @@ canvas#gameCanvas {
   margin-bottom: 15px;
 }
 
-.project-category {
+.resume-subtitle {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
+
+.resume-category {
   text-align: center;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(231px, 1fr));
   gap: 25px;
   max-width: 1000px;
   margin: 0 auto;
