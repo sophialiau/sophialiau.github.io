@@ -801,12 +801,12 @@ canvas#gameCanvas {
 }
 
 .education-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 487.5px);
   gap: 25px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 12.5px auto; /* Center the grid */
+  justify-content: center;
 }
 
 .education-card {
@@ -817,14 +817,13 @@ canvas#gameCanvas {
   text-align: center;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   line-height: 1.6;
-  max-width: 1000px;
 }
 
 .education-card h3 {
-  font-size: 1.6em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 .education-card p {
-  font-size: 1em;
+  font-size: 0.5em;
   margin-bottom: 10px;
 }
