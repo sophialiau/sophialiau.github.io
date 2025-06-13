@@ -516,7 +516,7 @@ canvas#gameCanvas {
 
 .category-title p {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2em;
+  font-size: 1.2em !important;
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -705,7 +705,7 @@ canvas#gameCanvas {
   font-family: 'Playfair Display', serif;
   padding: 30px 25px;
   border-radius: 10px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 30px auto;
   text-align: left;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -733,6 +733,7 @@ canvas#gameCanvas {
   text-align: left;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   line-height: 1.6;
+  max-width: 1000px;
 }
 
 .experience-card h3 {
