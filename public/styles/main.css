@@ -514,6 +514,15 @@ canvas#gameCanvas {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.category-title p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 487.5px);
@@ -654,7 +663,7 @@ canvas#gameCanvas {
 
 .resume-subtitle {
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 3em !important;
+  font-size: 2em !important;
   margin-bottom: 15px;
   color: #FFFFFF;
 }
@@ -715,20 +724,12 @@ canvas#gameCanvas {
 
 
 /* === Experience Cards === */
-.experience-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  max-width: 1000px;
-  margin: 30px auto;
-}
 
 .experience-card {
   background-color: #293241;
   color: #FFFFFF;
   font-family: 'Playfair Display', serif;
   padding: 25px 20px;
-  border-radius: 10px;
   text-align: left;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   line-height: 1.6;
