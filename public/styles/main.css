@@ -626,7 +626,7 @@ canvas#gameCanvas {
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  height: 300px;
+  height: 200px;
 }
 
 .resume-card:hover {
@@ -645,8 +645,6 @@ canvas#gameCanvas {
   margin-bottom: 10px;
 }
 
-
-
 .resume-card p {
   font-size: 1em;
   line-height: 1.6;
@@ -656,7 +654,7 @@ canvas#gameCanvas {
 
 .resume-subtitle {
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 3em;
+  font-size: 3em !important;
   margin-bottom: 15px;
   color: #FFFFFF;
 }
