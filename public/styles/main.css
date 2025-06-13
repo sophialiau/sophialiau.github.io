@@ -401,7 +401,7 @@ section nav ul li a:hover {
 
 .contact-container p {
   font-size: 1.2em;
-  color: #FAF9F6;
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
@@ -414,7 +414,7 @@ section nav ul li a:hover {
 
 .contact-links a {
   text-decoration: none;
-  color: #FAF9F6;
+  color: #FFFFFF;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 700;
@@ -492,7 +492,9 @@ canvas#gameCanvas {
 }
 
 
-/* Projects Container */
+  /******************/
+ /*    PROJECTS    */
+/******************/
 .project-category {
   text-align: center;
 }
@@ -569,27 +571,123 @@ canvas#gameCanvas {
 
 
 
-/* Resume section styling */
-#resume_technicalskills {
-  text-align: center; 
+  /******************/
+ /*    RESUME!!    */
+/******************/
+.resume-header {
+  text-align: center;
+  padding: 20px;
+  background: #293241;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  width: 1000px;
+  margin: 40px auto;
 }
 
-.skills-row {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  flex-wrap: wrap;         /* Wrap onto new line if needed */
-  gap: 10px;               /* Spacing between skills */
+.resume-header h1 {
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #FFFFFF;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+.resume-header p {
+  font-size: 1.2em;
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
-.skills-row a {
-  display: block;          /* So each link is a block inside the flex row */
-  padding: 5px 10px;       /* Optional: "button-like" spacing */
-  background-color: transparent; 
+.resume-header a {
+  color: #FFFFFF;
   text-decoration: none;
-  color: #F9B9C3;
+  font-weight: 400;
+  transition: color 0.3s ease;
 }
 
-#resume_technicalskills h2 {
-  margin-bottom: 10px; /* Some space under the heading */
+.resume-header a:hover {
+  color: #FEF1F3;
 }
+
+.resume-download-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 487.5px);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 12.5px auto; /* Center the grid */
+  justify-content: center;
+}
+
+.resume-card {
+  background-color: #293241;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  height: 300px;
+}
+
+.resume-card:hover {
+  background-color: #FEF1F3;
+  color: #293241;
+  transform: translateY(-5px);
+}
+
+.resume-card:hover h3, .resume-card:hover .resume-subtitle, .resume-card:hover p {
+  color: #293241; /* Change text color on hover */
+}
+
+.resume-card h3 {
+  margin-top: 15px;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.resume-subtitle {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
+
+.resume-card .project-subtitle{
+  font-size: 2em;
+}
+
+.resume-card p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.project-category {
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.skills-card {
+  background-color: #293241;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease;
+}
+
+.skills-card:hover {
+  background-color: #FEF1F3;
+  color: #293241;
+}
+
