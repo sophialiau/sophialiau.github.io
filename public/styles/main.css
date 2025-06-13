@@ -626,7 +626,7 @@ canvas#gameCanvas {
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  height: 200px;
+  height: 225px;
 }
 
 .resume-card:hover {
@@ -688,3 +688,68 @@ canvas#gameCanvas {
   color: #293241;
 }
 
+
+/* === Education Card === */
+.education-card {
+  background-color: #293241;
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  padding: 30px 25px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  line-height: 1.6;
+}
+
+.education-card h3 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+
+/* === Experience Cards === */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.experience-card {
+  background-color: #293241;
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  padding: 25px 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  line-height: 1.6;
+}
+
+.experience-card h3 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.experience-card p {
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experience-card li {
+  margin-bottom: 8px;
+  font-size: 0.95em;
+}
