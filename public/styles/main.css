@@ -516,7 +516,7 @@ canvas#gameCanvas {
 
 .category-title p {
   font-family: 'Playfair Display', serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -729,6 +729,10 @@ canvas#gameCanvas {
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
+.education-card:hover h3, .education-card:hover p {
+  color: #293241; /* Change text color on hover */
+}
+
 
 /* === Experience Cards === */
 
@@ -767,6 +771,7 @@ canvas#gameCanvas {
 .experience-card ul {
   padding-left: 20px;
   margin-top: 10px;
+  text-align: left;
 }
 
 .experience-card li {
