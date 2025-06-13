@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sophia Liau - Contact</title>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width = device-wifth, initial-scale=1.0">
+  
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+  
+     <!-- style -->
+    <link rel="stylesheet" href="styles/main.css">
+
+     <!-- tab icon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+     <link rel="manifest" href="assets/site.webmanifest">
+  
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Sophia S. Liau</h1>
+          </a>
+
+        <nav>
+            <ul>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href = "resume.html">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href ="personal.html">Personal</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="project-sample">
+            <h2 class="project-title">Sustainabite</h2>
+          
+            <div class="project-tags">
+              <span class="tag">April 2025</span>
+              <span class="tag">Applied Machine Learning</span>
+              <span class="tag">Hackathon Project</span>
+            </div>
+          
+            <p class="project-description">
+              Sustainabite is a smart, student-focused platform designed to reduce food waste by helping users turn what they already have into delicious meals. By simply uploading a photo of pantry items or a fridge snapshot, users receive curated recipe recommendations based on their available ingredients, preferred cuisine, and time constraints. At its core, Sustainabite combines image recognition and machine learning to bridge the gap between what’s in your kitchen and what ends up on your plate.
+            </p>
+          
+            <!-- Slideshow -->
+            <div class="project-slideshow">
+              <div class="slide fade">
+                <div class="slide-number">1 / 13</div>
+                <img src="assets/projects/Sustainabite/sustainabite-1.png" alt="Slide 1" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">2 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-2.png" alt="Slide 2" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">3 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-3.png" alt="Slide 3" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">4 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-4.png" alt="Slide 4" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">5 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-5.png" alt="Slide 5" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">6 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-6.png" alt="Slide 6" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">7 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-7.png" alt="Slide 7" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">8 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-8.png" alt="Slide 8" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">9 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-9.png" alt="Slide 9" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">10 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-10.png" alt="Slide 10" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">11 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-11.png" alt="Slide 11" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">12 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-12.png" alt="Slide 12" />
+              </div>
+              <div class="slide fade">
+                <div class="slide-number">13 / 13</div>
+                <img src="assests/projects/Sustainabite/sustainabite-13.png" alt="Slide 13" />
+              </div>
+          
+              <a class="prev" onclick="changeSlide(-1)">❮</a>
+              <a class="next" onclick="changeSlide(1)">❯</a>
+            </div>
+          
+            <!-- Project Links -->
+            <div class="project-links">
+              <a href="https://github.com/jordyn-knock/Sustainabite"><img src="assets/logos/navydevpost.png" alt="Devpost" /></a>
+              <a href="https://devpost.com/software/sustainabite-vt67m8"><img src="assets/logos/navygithub.png" alt="GitHub" /></a>
+            </div>
+          
+            <!-- Technical Overview -->
+            <div class="project-tech">
+              <h3>Technical Overview</h3>
+              <p>
+                The platform uses OpenAI’s CLIP model to detect ingredients directly from uploaded images, which are matched against a massive recipe dataset of over 500,000. A fine-tuned retrieval system filters recipes based on real-time inputs. Two additional ML models predict cuisine and cooking time. Built with Streamlit, the app emphasizes usability, accessibility, and fast feedback loops.
+              </p>
+            </div>
+          </section>
+
+    </main>
+
+    <footer>
+        <div class="contact-links">
+          <a class="linkedin" href="https://www.linkedin.com/in/sophia-liau-518209247/" target="_blank">
+              <img src="assets/logos/navylinkedin.png" alt="LinkedIn Logo">
+          </a>
+          <a class="email" href="mailto:sophia.liau5@gmail.com" target="_blank">
+              <img src="assets/logos/navymail.png" alt="Email Logo">
+          </a>
+          <a class="instagram" href="https://www.instagram.com/sophiasliau/" target="_blank">
+              <img src="assets/logos/navyinstagram.png" alt="Instagram Logo">
+          </a>
+          <a class="github" href="https://github.com/sophialiau" target="_blank">
+              <img src="assets/logos/navygithub.png" alt="GitHub Logo">
+          </a>
+      </div>
+        <p>© 2025 Sophia Liau. All rights reserved.</p>
+      </footer>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/slide.js"></script>
+</body>
+</html>

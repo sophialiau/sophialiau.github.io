@@ -796,6 +796,9 @@ canvas#gameCanvas {
   font-size: 0.95em;
 }
 
+  /******************/
+ /*    EDUCATIo    */
+/******************/
 .year-category {
   text-align: center;
 }
@@ -826,6 +829,153 @@ canvas#gameCanvas {
   margin-bottom: 10px;
 }
 .class-card p {
-  font-size: 0.5em;
+  font-size: 0.75em;
   margin-bottom: 10px;
+}
+
+  /******************/
+ /*   INDIVID P    */
+/******************/
+
+.project-sample {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background-color: #fdf4f5;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #293241;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.project-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background-color: #293241;
+  color: white;
+  font-size: 0.9em;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.project-description {
+  max-width: 850px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+.project-links {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.project-links img:hover {
+  transform: scale(1.1);
+}
+
+/* Slideshow Styles */
+.project-slideshow {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.slide-number {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: rgba(41, 50, 65, 0.7);
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+/* Arrows */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(41, 50, 65, 0.7);
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(254, 241, 243, 0.85);
+  color: #293241;
+}
+
+/* Fade effect */
+.fade {
+  animation: fade 0.8s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Tech box */
+.project-tech {
+  background-color: #293241;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.project-tech h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.project-tech p {
+  font-size: 1em;
+  line-height: 1.6;
 }
