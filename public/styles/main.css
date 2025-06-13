@@ -514,9 +514,14 @@ canvas#gameCanvas {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.category-title h2{
+  font-size: 1em;
+  margin: 0;
+}
+
 .category-title p {
   font-family: 'Playfair Display', serif;
-  font-size: 0.25em;
+  font-size: 0.5em;
   color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 20px;
