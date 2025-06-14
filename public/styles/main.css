@@ -860,6 +860,7 @@ canvas#gameCanvas {
 .project-title {
   font-family: 'Playfair Display', serif;
   font-size: 3em;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 600;
   color:#293241;
@@ -909,7 +910,8 @@ canvas#gameCanvas {
 }
 
 .project-info {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .project-info-box {
