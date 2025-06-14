@@ -42,7 +42,7 @@
     </header>
 
     <main>
-        <section class="project-sample">
+        <section class="project-head">
             <h2 class="project-title">Sustainabite</h2>
           
             <div class="project-tags">
@@ -54,9 +54,20 @@
             <p class="project-description">
               Sustainabite is a smart, student-focused platform designed to reduce food waste by helping users turn what they already have into delicious meals. By simply uploading a photo of pantry items or a fridge snapshot, users receive curated recipe recommendations based on their available ingredients, preferred cuisine, and time constraints. At its core, Sustainabite combines image recognition and machine learning to bridge the gap between what’s in your kitchen and what ends up on your plate.
             </p>
+
+            <!-- Project Links -->
+            <div class="project-links">
+                <a href="https://github.com/jordyn-knock/Sustainabite"><img src="../assets/logos/navydevpost.png" alt="Devpost" /></a>
+                <a href="https://devpost.com/software/sustainabite-vt67m8"><img src="../assets/logos/navygithub.png" alt="GitHub" /></a>
+              </div>
+
+        </section>
+
+        <section class="project-info">
+            <div class="project-info-box">
           
-            <!-- Slideshow -->
-            <div class="project-slideshow">
+                <!-- Slideshow -->
+              <div class="project-slideshow">
               <div class="slide fade">
                 <div class="slide-number">1 / 13</div>
                 <img src="../assets/projects/Sustainabite/sustainabite-1.png" alt="Slide 1" />
@@ -112,22 +123,19 @@
           
               <a class="prev" onclick="changeSlide(-1)">❮</a>
               <a class="next" onclick="changeSlide(1)">❯</a>
-            </div>
-          
-            <!-- Project Links -->
-            <div class="project-links">
-              <a href="https://github.com/jordyn-knock/Sustainabite"><img src="../assets/logos/navydevpost.png" alt="Devpost" /></a>
-              <a href="https://devpost.com/software/sustainabite-vt67m8"><img src="../assets/logos/navygithub.png" alt="GitHub" /></a>
-            </div>
-          
-            <!-- Technical Overview -->
-            <div class="project-tech">
-              <h3>Technical Overview</h3>
-              <p>
-                The platform uses OpenAI’s CLIP model to detect ingredients directly from uploaded images, which are matched against a massive recipe dataset of over 500,000. A fine-tuned retrieval system filters recipes based on real-time inputs. Two additional ML models predict cuisine and cooking time. Built with Streamlit, the app emphasizes usability, accessibility, and fast feedback loops.
-              </p>
-            </div>
-          </section>
+          </div>
+
+          <div class="project-info">
+            <h3>Technical Overview</h3>
+            <p>The platform uses OpenAI’s CLIP model to detect ingredients directly from uploaded images, which are then matched against a massive Kaggle dataset of over 500,000 recipes. 
+                A fine-tuned recipe retrieval system filters these based on real-time user inputs. 
+                Two additional AI models enhance this experience: one predicts the cuisine category, and the other estimates cooking time, ensuring suggestions align with user preferences. 
+                Built with Streamlit, the frontend ensures an intuitive and fast user interface. 
+                Key challenges included messy data formatting and inaccurate time predictions, which were tackled through rigorous data cleaning and iterative model tuning. 
+                Looking ahead, we plan to incorporate dietary filters (e.g., vegan, gluten-free) and social features for community-based ingredient sharing.</p>
+          </div>
+
+        </section>
 
     </main>
 
