@@ -846,7 +846,7 @@ canvas#gameCanvas {
 
 .project-head {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: auto; /* optional: change from 90vh to fit content */
   overflow: hidden;
   background-color: #fdf4f5;
@@ -915,11 +915,13 @@ canvas#gameCanvas {
   display: flex;
   justify-content: center;
   background-color: transparent;
+  padding: 0;
 }
 
 .project-info-box {
   max-width: 1000px;
-  margin: 12.5px auto; /* Center the box */
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   padding: 30px;
   background-color: #293241;
   display: flex;
