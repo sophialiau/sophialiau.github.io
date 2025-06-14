@@ -914,6 +914,7 @@ canvas#gameCanvas {
 .project-info {
   display: flex;
   justify-content: center;
+  background-color: transparent;
 }
 
 .project-info-box {
@@ -921,7 +922,6 @@ canvas#gameCanvas {
   margin: 12.5px auto; /* Center the box */
   padding: 30px;
   background-color: #293241;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -948,7 +948,10 @@ canvas#gameCanvas {
 .project-slideshow {
   position: relative;
   max-width: 700px;
-  margin: 0 auto 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slide {
@@ -1014,23 +1017,3 @@ canvas#gameCanvas {
   to { opacity: 1; }
 }
 
-/* Tech box */
-.project-tech {
-  background-color: #293241;
-  color: white;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 900px;
-  margin: 0 auto;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-
-.project-tech h3 {
-  font-size: 2em;
-  margin-bottom: 15px;
-}
-
-.project-tech p {
-  font-size: 1em;
-  line-height: 1.6;
-}
