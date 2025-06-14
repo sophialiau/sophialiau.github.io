@@ -929,6 +929,10 @@ canvas#gameCanvas {
   align-items: center;
 }
 
+.project-info-box + .project-info-box {
+  margin-top: 20px; /* or however much spacing you want */
+}
+
 .project-info-box h3 {
   font-family: 'Playfair Display', serif;
   color: #FFFFFF;
