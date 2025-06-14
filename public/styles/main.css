@@ -913,6 +913,7 @@ canvas#gameCanvas {
 
 .project-info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: transparent;
   padding: 0;
