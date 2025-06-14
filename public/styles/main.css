@@ -840,6 +840,8 @@ canvas#gameCanvas {
 .individual-page {
   max-width: 1440px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .project-head {
@@ -916,10 +918,13 @@ canvas#gameCanvas {
 
 .project-info-box {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 12.5px auto; /* Center the box */
   padding: 30px;
   background-color: #293241;
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-info-box h3 {
