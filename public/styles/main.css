@@ -1025,3 +1025,16 @@ canvas#gameCanvas {
   to { opacity: 1; }
 }
 
+/* Graphic Container (Non slideshow) */
+.graphic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.graphic-container img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
