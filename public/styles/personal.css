@@ -261,12 +261,12 @@
   
   .hover-image-box {
     width: 600px;
-    height: 300px;
+    height: 750px;
     margin: 20px auto;
     background-image: url("../assets/landinghover/1.png");
     background-size: cover;
     background-position: center;
-    transition: background-image 0.3s ease-in-out;
+    transition: none
     border-radius: 4px;
   }
   
