@@ -250,24 +250,27 @@
 
   /* Hover effect for my graphic */
 
-    .hovergraphic-content {
-      text-align: center;
-      background-color: #293241;
-      padding: 20px;
-      max-width: 1000px;
-    }
+  .hovergraphic-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #293241;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+  }
   
-  .hover-image {
-    width: 400px; /* adjust as needed */
-    height: 300px; /* adjust as needed */
-    background-image: url("assets/landinghover/1.png");
+  .hover-image-box {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-image: url("../assets/landinghover/1.png");
     background-size: cover;
     background-position: center;
     transition: background-image 0.3s ease-in-out;
-    margin: 0 auto;
+    border-radius: 4px;
   }
   
-  .hover-image:hover {
-    background-image: url("assets/landinghover/2.png");
+  .hover-image-box:hover {
+    background-image: url("../assets/landinghover/2.png");
   }
   
