@@ -412,6 +412,32 @@
   #nav-panel a:hover {
     font-style: italic;
   }
+
+  #nav-panel nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #nav-panel nav ul li a {
+    font-size: 2em;
+    color: #fbb6c2;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  #nav-panel nav ul li a:hover {
+    transform: scale(1.05);
+    font-style: italic;
+    color: white;
+  }
+  
   
 
  
