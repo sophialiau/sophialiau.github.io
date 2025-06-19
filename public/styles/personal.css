@@ -318,32 +318,6 @@
     font-weight: 700;
     text-decoration: none;
   }
-
-  /* Hover effect for my graphic */
-
-  .hovergraphic-content {
-    text-align: center;
-    padding: 20px;
-    background-color: #293241;
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  
-  .hover-image-box {
-    width: 600px;
-    height: 750px;
-    margin: 20px auto;
-    background-image: url("../assets/landinghover/1.png");
-    background-size: cover;
-    background-position: center;
-    transition: none;
-    border-radius: 4px;
-  }
-  
-  .hover-image-box:hover {
-    background-image: url("../assets/landinghover/2.png");
-  }
   
   /* Fixed Menu Icon */
 #menu-button {
@@ -422,6 +396,78 @@
   
   #nav-panel nav ul li a:hover {
     font-style: italic;
+  }
+  
+  /* Hover effect for my graphic */
+
+  .hovergraphic-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #293241;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .hover-image-box {
+    width: 600px;
+    height: 750px;
+    margin: 20px auto;
+    background-image: url("../assets/landinghover/1.png");
+    background-size: cover;
+    background-position: center;
+    transition: none;
+    border-radius: 4px;
+  }
+  
+  .hover-image-box:hover {
+    background-image: url("../assets/landinghover/2.png");
+  }
+
+  .personal-landing {
+    background-color: transparent;
+    padding: 40px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #293241;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .landing-top-text {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  
+  .landing-content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 40px 0;
+  }
+  
+  .photo-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .photo-column img {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .landing-caption {
+    font-family: 'Monsieur La Doulaise', cursive;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 1.4em;
   }
   
   
