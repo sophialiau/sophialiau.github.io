@@ -355,60 +355,54 @@
     cursor: pointer;
     z-index: 999;
   }
-  
-  /* Hidden Navigation Panel */
-  #nav-panel {
-    position: fixed;
-    top: 0;
-    right: -300px; /* Off-screen */
-    width: 300px;
-    height: 100vh;
-    background-color: #293241;
-    color: white;
-    padding: 40px 20px;
-    transition: right 0.4s ease;
-    z-index: 998;
-  }
-  
-  #nav-panel nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #nav-panel nav ul li {
-    margin: 20px 0;
-  }
-  
-  #nav-panel nav ul li a {
-    color: white;
-    font-size: 1.2em;
-    text-decoration: none;
-  }
-  
-  /* Show Panel */
-  #nav-panel.open {
-    right: 0;
-  }
 
   /* Overlay (hidden by default) */
-#overlay {
+  #overlay {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 997;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    z-index: 998; /* BELOW the menu */
+    display: none;
+  }
+
+  #overlay.active {
+    display: block;
   }
   
-  /* Show overlay */
-  #overlay.active {
-    opacity: 1;
-    pointer-events: all;
+  
+  #nav-panel {
+    position: fixed;
+    top: 80px; /* adjust so it clears your header */
+    right: 20px;
+    z-index: 1000; /* ABOVE the overlay */
+    background-color: #293241;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   }
+  
+  #nav-panel a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+  
+  #nav-panel a:hover {
+    color: #FEF1F3;
+  }
+
+   /* Show Panel */
+   #nav-panel.open {
+    right: 0;
+  }
+  
   
   
