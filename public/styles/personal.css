@@ -436,6 +436,8 @@
   .landing-top-text {
     text-align: right;
     font-style: italic;
+    background-color: #293241;
+    padding: 20px;
     font-size: 1.1em;
     margin-bottom: 20px;
     color: #FFFFFF;
@@ -451,6 +453,7 @@
   }
   
   .photo-column {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -463,11 +466,14 @@
   }
   
   .landing-caption {
+    background-color:#293241;
+    padding: 20px;
+    border-radius: 0;
     font-family: 'Monsieur La Doulaise', cursive;
     text-align: center;
     color: #FFFFFF;
     margin-top: 20px;
-    font-size: 1.4em;
+    font-size: 3em;
   }
   
   
