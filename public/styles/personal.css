@@ -453,7 +453,7 @@
   }
   
   .photo-column {
-    max-width: 350px;
+    max-width: 340px;
     display: flex;
     flex-direction: column;
     gap: 20px;
