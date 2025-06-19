@@ -400,18 +400,6 @@
     pointer-events: all;
     transform: translate(-50%, -50%) scale(1);
   }
-  
-  #nav-panel a {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    color: #F9B9C3; /* soft pink */
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  #nav-panel a:hover {
-    font-style: italic;
-  }
 
   #nav-panel nav ul {
     list-style: none;
@@ -424,8 +412,8 @@
   }
   
   #nav-panel nav ul li a {
-    font-size: 2em;
-    color: #fbb6c2;
+    font-size: 3em;
+    color: #F9B9C3;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     transition: transform 0.3s ease;
@@ -433,9 +421,7 @@
   }
   
   #nav-panel nav ul li a:hover {
-    transform: scale(1.05);
     font-style: italic;
-    color: white;
   }
   
   
