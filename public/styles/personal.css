@@ -365,49 +365,54 @@
     height: 100vh;
     width: 100vw;
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.0); /* transparent bg */
     z-index: 997; /* BELOW the menu */
-    display: none;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    display: block; /* always present for animation */
+    pointer-events: none; /* don't block clicks unless active */
   }
 
   #overlay.active {
-    display: block;
+    transform: translateX(0%);
+    pointer-events: auto;
   }
   
   
   #nav-panel {
     position: fixed;
-    top: 80px;
-    right: -300px;
-    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
     z-index: 999;
-    background-color: transparent;
-    padding: 20px;
-    transition: right 0.4s ease-in-out;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     opacity: 0;
     pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
   
   #nav-panel.open {
-    right: 20px;
     opacity: 1;
-    pointer-events: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }  
+    pointer-events: all;
+    transform: translate(-50%, -50%) scale(1);
+  }
   
   #nav-panel a {
-    color: #293241;
-    text-decoration: none;
     font-family: 'Playfair Display', serif;
-    font-size: 1em;
+    font-size: 3em;
+    color: #F9B9C3; /* soft pink */
+    text-decoration: none;
     transition: color 0.3s ease;
-    text-align: right;
   }
   
   #nav-panel a:hover {
     font-style: italic;
   }
+  
 
  
   
