@@ -433,16 +433,6 @@
     font-family: 'Playfair Display', serif;
   }
   
-  .landing-top-text {
-    text-align: right;
-    font-style: italic;
-    background-color: #293241;
-    padding: 20px;
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    color: #FFFFFF;
-  }
-  
   .landing-content {
     display: flex;
     gap: 40px;
@@ -453,7 +443,7 @@
   }
   
   .photo-column {
-    max-width: 300px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     gap: 20px;
