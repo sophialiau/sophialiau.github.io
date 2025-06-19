@@ -289,7 +289,7 @@
   .text-box h1 {
     font-family: "Playfair Display", serif;
     color: #FFFFFF;
-    font-size: 4em;
+    font-size: 2em;
     margin: 0;
   }
 
@@ -302,10 +302,9 @@
 
 
   .get-to-know {
-    background-color: #F9B9C3; 
+    background-color: #293241; 
     text-align: center;
     padding: 40px 20px;
-    border-top: 1px solid #ddd;
   }
 
   .get-to-know p {
