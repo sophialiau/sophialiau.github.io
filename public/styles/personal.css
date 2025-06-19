@@ -432,6 +432,16 @@
     color: #293241;
     font-family: 'Playfair Display', serif;
   }
+
+  .landing-navigator {
+    text-align: center;
+    font-style: italic;
+    background-color: #293241;
+    padding: 20px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
   
   .landing-content {
     display: flex;
@@ -462,7 +472,7 @@
     font-family: 'Monsieur La Doulaise', cursive;
     text-align: center;
     color: #FFFFFF;
-    margin: auto;
+    margin-top: 20px;
     font-size: 3em;
   }
   
