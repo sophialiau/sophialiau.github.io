@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Set page title with generation counter
   function updateTitle() {
-    document.title = `Conway's Game of Life (Gen: ${generation})`;
+    document.title = `Contact (Gen: ${generation})`;
   }
   
   // Create an empty grid
