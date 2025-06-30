@@ -478,6 +478,15 @@
     margin-top: 20px;
     font-size: 3em;
   }
+
+  .personal-listening {
+    display: grid;
+    grid-template-columns: repeat(2, 487.5px);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 12.5px auto; /* Center the grid */
+    justify-content: center;
+  }
   
   
 
